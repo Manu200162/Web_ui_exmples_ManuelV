@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 
 import java.util.Date;
 
-public class ProjectCUD {
+public class ProjectCRUD {
 
     //CREATE
     public String nameProj="MANUEL"+new Date().getTime();
