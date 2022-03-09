@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import pages.LoginModal;
 import pages.MainPage;
 import pages.MenuSection;
-import pages.SettingsPage;
+import pages.PersonalSettingsSection;
 
 import java.util.Date;
 
@@ -14,7 +14,7 @@ public class SettingNameTest extends BaseTodoLy {
     MainPage mainPage= new MainPage();
     LoginModal loginModal= new LoginModal();
     MenuSection menuSection= new MenuSection();
-    SettingsPage settingsPage= new SettingsPage();
+    PersonalSettingsSection settingsPage= new PersonalSettingsSection();
 
     @Test
     public void verifyFullNameChanged() throws InterruptedException {

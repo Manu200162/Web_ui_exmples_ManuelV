@@ -5,13 +5,13 @@ import org.junit.jupiter.api.Test;
 import pages.LoginModal;
 import pages.MainPage;
 import pages.MenuSection;
-import pages.ProjectCRUD;
+import pages.ProjectCRUDSection;
 
 public class CRUDProject extends BaseTodoLy   {
     MainPage mainPage= new MainPage();
     LoginModal loginModal= new LoginModal();
     MenuSection menuSection = new MenuSection();
-    ProjectCRUD projectCRUD = new ProjectCRUD();
+    ProjectCRUDSection projectCRUD = new ProjectCRUDSection();
 
     @Test
     public void verifyCRUDProjectTodoLy() throws InterruptedException {
